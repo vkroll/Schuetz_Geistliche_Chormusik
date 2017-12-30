@@ -57,6 +57,8 @@ sopran_one = \relative c'' {
     b4. b8 b2. \breathe gis4 a b2( a gis4) a1
     r1 r8 a8 f g a4 \breathe a a8 f g a bes4 bes8 bes bes4 bes8 bes c4 bes8 bes 
     a2 \breathe a8 a b c d2 d4 r8 d8 b b c d e2 e r4 c
+    f f8 e d1 c2 r4 g4 g8 g a b c2 c 
+    r4 a4 d d8 c b1 a2 r4 g4 c b8 b a4 g8 \breathe e a4 g8 g g4( fis) g1\fermata  \bar "||"
 }
 sopran_one_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort, 
@@ -76,6 +78,9 @@ sopran_one_text = \lyricmode {
     -- her -- zig -- keit wi -- der -- fah -- ren,
     auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er -- zei -- ge -- te al -- le Ge 
     -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben sol -- len zum
+    e -- wi -- gen Le -- ben, die an ih gläu -- ben sol -- len
+    zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben,zum e -- wi -- gen Le -- ben,  
+
 }
 sopran_two = \relative c'' {
     \time 4/2 r1 a2. a4 a2. b4 c2 c c1 r2 e,4 e f2 a g1. g2 g1 
@@ -95,6 +100,8 @@ sopran_two = \relative c'' {
     fis4 fis8 g gis4. gis8 gis4 \breathe b4 e, fis8 fis gis4 a b2 a1
     r1 r8 f8 d e f4 \breathe f f8 d e f g4 g8 g g4 g8 g a4 g8 g 
     fis1 \breathe fis8 fis g a b2 b4 r8 b8 g g a b c2 c
+    r4 a4 d c8 c c4( b) c2 r4 e,4 e8 e f g a2 a 
+    r2 r4 a4 b a8 a a4( gis) a2 r2 r4 g4 c c8 b a1 b \fermata
 
 }
 
@@ -117,6 +124,8 @@ sopran_two_text = \lyricmode {
     ist mir Barm -- her -- zig -- keit, Barm -- her -- zig -- keit wi -- der -- fah -- ren,
     auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er -- zei -- ge -- te al -- le Ge
     -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben sol -- len 
+    zum e -- wi -- gen Le -- ben, die an ih gläu -- ben sol -- len 
+    zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben.
 }
 
 alt = \relative c' {
@@ -137,7 +146,8 @@ alt = \relative c' {
     r8 d8 d b e4. b8 b2 r4 b2 e4 e2 e r8 e8 cis d 
     e4 e e8 cis d e f4 f r2 r4 d4 d d8 d d2 f4 d 
     d1 r2 d8 d e fis g2 g4 r8 g8 e e f g a2
-    a4
+    a4 \breathe f f a8 a g2 e r1 r4 c4 f e8 e 
+    d4 d r4 f g f8 f e1 e4 \breathe e c e8 e a,4 e'8 \breathe g c,4 e8 e d2 d1 \fermata
     
 }
 alt_text = \lyricmode { 
@@ -158,7 +168,8 @@ alt_text = \lyricmode {
     ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, auf dass an 
     mir für -- nehm -- lich Je -- sus Chri -- stus er -- zei -- ge -- te al -- le Ge
     -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben sol 
-    -- len 
+    -- len zum e -- wi -- gen Le -- ben, zum e -- wi -- gen 
+    Le -- ben, zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben.
 
 
 }
@@ -181,6 +192,8 @@ tenor_one = \relative c' {
     r2 r8 b8 b e e4. e8 e4 d2 c4 b2 cis1 
     r2 r8 a8 b cis d2. \breathe d4 d8 c bes a g4 g8 g g4 g8 g f4 g8 g 
     d1 r2 b'8 b c d e4 d r4 r8 e8 c c d e f4 e
+    r\breve r4 c4 c8 c a g f2 f4 \breathe c'4
+    f e8 e d2 d r4 b4 c c8 b a4 e \breathe a g8 g f4 g8 \breathe c a4 c8 c a4.( d8) b1 \fermata
 }
 tenor_one_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort,
@@ -199,7 +212,8 @@ tenor_one_text = \lyricmode {
     ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, 
     auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er -- zei -- ge -- te al -- le Ge
     -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben sol -- len 
-
+    die an ihn gläu -- ben sol -- len zum 
+    e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben, e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben. 
 }
 
 
@@ -221,6 +235,8 @@ tenor_two = \relative c {
     d2 r2 r8 b8 b e, a4 d8 d b4 c e( e,) e1
     r\breve r
     r r1 r4 a4 a8 a b c
+    d4 c r2 r4 g4 g8 g a b c2. c4 r2 r4 a4 
+    d c8 c b4 a8  \breathe a g4 d'8 d b4 e, r4 a4 c b8 b a4 b r4 g4 a e8 e a2 g1 \fermata
 }
 tenor_two_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort, das ist 
@@ -239,7 +255,8 @@ tenor_two_text = \lyricmode {
      -- rum ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, 
 
     die an ih gläu -- ben 
-
+    sol -- len, die an ihn gläu -- ben sol -- len zum
+    e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben.
 }
 
 bass = \relative c {
@@ -260,6 +277,7 @@ bass = \relative c {
     d4 d8 g e4. e8 e2 \breathe cis4 d e1 a,
     r\breve r
     r1 d8 d e fis g2 g4 r8 g e e fis g a2 a 
+    r4 f4 bes f8 f g2 c, r\breve r2 r4 d4 g d8 d e2 a, r2 r2 r4 c4 f c8 c d2 g,1 \fermata
 }
 
 bass_text = \lyricmode { 
@@ -280,7 +298,8 @@ bass_text = \lyricmode {
     ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, 
 
     zum Ex -- em -- pel de -- nen, die an ih gläu -- ben sol -- len 
-
+    zum e -- wi -- gen Le -- ben, 
+    zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben.
 }
 \score {
   \new StaffGroup \relative c' {
