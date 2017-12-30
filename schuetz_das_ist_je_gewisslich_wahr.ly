@@ -10,6 +10,7 @@
 }
 #(set-global-staff-size 15.87)
 
+
 global = {
   \hide Staff.BarLine
   s1 s
@@ -60,6 +61,9 @@ sopran_one = \relative c'' {
     f f8 e d1 c2 r4 g4 g8 g a b c2 c 
     r4 a4 d d8 c b1 a2 r4 g4 c b8 b a4 g8 \breathe e a4 g8 g g4( fis) g1\fermata  \bar "||"
     c1 r4 c4 c d8 d a4. a8 a2 r4 d d e b4. b8 b2 r4 b2 c4 a4. a8 a2 r4 c4 c c 
+    d1 d2 r4 d,4 a' a8 a d,4 d g4. g8 a2 \breathe g1 g2 r4 g4
+    a a8 a b4 b c2 b4 a \breathe gis( a2 gis4) a2 r4 b4 d d8 d e2.
+    e4 d2. c8 c \breathe b2 a\breve \breathe a4( g f e d2 d'1 cis4 b) cis\breve\fermata \bar "|."
 }
 sopran_one_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort, 
@@ -82,6 +86,9 @@ sopran_one_text = \lyricmode {
     e -- wi -- gen Le -- ben, die an ih gläu -- ben sol -- len
     zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben.  
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
+    Wei -- sen sei Eh -- re und Preis in E -- wig -- keit, A -- men, sei 
+    Eh -- re und Preis in E -- wig -- keit, A -- men, sei Eh -- re und Preis
+    in E -- wig -- keit, A -- men, A -- men.
 
 }
 sopran_two = \relative c'' {
@@ -105,6 +112,10 @@ sopran_two = \relative c'' {
     r4 a4 d c8 c c4( b) c2 r4 e,4 e8 e f g a2 a 
     r2 r4 a4 b a8 a a4( gis) a2 r2 r4 g4 c c8 b a1 b \fermata
     g1 r4 g4 g g8 g fis4. fis8 fis2 r4 a4 a a gis4. gis8 gis2 r4 gis2 a4 c4. c8 c2 r4 a4 a g
+    b1 b2 r4 b4 c c8 c d4 d e2 d4 c b( c2 b4) c2 r4 b4
+    d d8 d e2. e4 d2. c8 c \breathe b2 a r4 g!4 a a8 a b4 b 
+    c2 b4 a gis4( a2 gis4) a1 \breathe a4( g f e d2. e4 f g a2. d,4 a'2) a\breve\fermata
+
 
 }
 
@@ -130,6 +141,9 @@ sopran_two_text = \lyricmode {
     zum e -- wi -- gen Le -- ben, die an ih gläu -- ben sol -- len 
     zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben.
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
+    Wei -- sen sei Eh -- re und Preis in E -- wig -- keit, A -- men, sei 
+    Eh -- re und Preis in E -- wig -- keit, A -- men, sei Eh -- re und Preis in
+    E -- wig -- keit, A -- men, A -- men.
 }
 
 alt = \relative c' {
@@ -153,6 +167,9 @@ alt = \relative c' {
     a4 \breathe f f a8 a g2 e r1 r4 c4 f e8 e 
     d4 d r4 f g f8 f e1 e4 \breathe e c e8 e a,4 e'8 \breathe g c,4 e8 e d2 d1 \fermata
     e1 r4 e4 e d8 d d4. d8 d2 r4 d4 a e' e4. e8 e2 r4 e2 e4 f4. f8 f2 r4 f4 f g
+    g1 g2 r2 r4 c,4 g' g8 g e4 e f2. e8 e \breathe d2  e r4 e4
+    a, a r4 b4 e4. e8 f4 f8 f e1 e2 r4 e4 a, a r4 b4 
+    e4. e8 f4 f8 f \breathe e1 e \breathe a,2.( b8[ cis] d4 e f g a2. g4 f1) e\breve \fermata
     
 }
 alt_text = \lyricmode { 
@@ -176,7 +193,9 @@ alt_text = \lyricmode {
     -- len zum e -- wi -- gen Le -- ben, zum e -- wi -- gen 
     Le -- ben, zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben.
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
-
+    Wei -- sen sei Eh -- re und Preis in E -- wig -- keit, A -- men, sei 
+    Eh -- re und Preis in E -- wig -- keit, A -- men, sei Eh -- re und 
+    Preis in E -- wig -- keit, A -- men, A -- men.
 
 }
 
@@ -201,6 +220,9 @@ tenor_one = \relative c' {
     r\breve r4 c4 c8 c a g f2 f4 \breathe c'4
     f e8 e d2 d r4 b4 c c8 b a4 e \breathe a g8 g f4 g8 \breathe c a4 c8 c a4.( d8) b1 \fermata
     c1 r4 c4 c, g'8 g a4. a8 a2 r4 a4 fis a b4. b8 b2 r2 e4 c c4. c8 c2 r4 c4 c e
+    d1 d2 r4 d4 c c8 c b4 b e4. e8 a,2 r4 g8([ a b c] d4) c2 r2
+    r4  a4 e' e8 e c4 c d d8 c \breathe b4( a b2) cis r2 r4 a4 e' e8 e 
+    c4  c d d8 c \breathe b4( a b2) cis1 r2 a4( g f e d2. e4 f g a1) a\breve \fermata
 }
 tenor_one_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort,
@@ -222,6 +244,10 @@ tenor_one_text = \lyricmode {
     die an ihn gläu -- ben sol -- len zum 
     e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben, e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben. 
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
+    Wei -- sen sei Eh -- re und Preis in E -- wig -- keit, A -- men,
+    sei Eh -- re und Preis in E -- wig -- keit, A -- men, sei Eh -- re und 
+    Preis in E -- wig -- keit, A -- men, A -- men.
+
 }
 
 
@@ -246,6 +272,9 @@ tenor_two = \relative c {
     d4 c r2 r4 g4 g8 g a b c2. c4 r2 r4 a4 
     d c8 c b4 a8  \breathe a g4 d'8 d b4 e, r4 a4 c b8 b a4 b r4 g4 a e8 e a2 g1 \fermata
     g1 r4 g4 g d8 d fis4. fis8 fis2 r4 fis4 a e gis4. gis8 gis2 r4 b2 a4 a4. a8  a2 r4 a4 a c
+    b1 b2 r2 r4 a4 d d8 d c2 r4 a4 d c8 c \breathe d4(g,) g2 r4 g4 
+    d' d8 d b2 r4 a4 f8 g a4 r2 e2 e r4 g4 d'4 d8 d b2
+    r4 a4 f8 g a4 r2 e2 e r2 d4( e f g a2. g4 f2. e4 d1) e\breve \fermata
 }
 tenor_two_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort, das ist 
@@ -267,6 +296,10 @@ tenor_two_text = \lyricmode {
     sol -- len, die an ihn gläu -- ben sol -- len zum
     e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben.
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
+    Wei -- sen sei Eh -- re und Preis in E -- wig -- keit, A -- men, sei 
+    Eh -- re und Preis in E -- wig -- keit, A -- men, sei Eh -- re und Preis 
+    in E -- wig -- keit, A -- men, A -- men.
+
 }
 
 bass = \relative c {
@@ -289,6 +322,9 @@ bass = \relative c {
     r1 d8 d e fis g2 g4 r8 g e e fis g a2 a 
     r4 f4 bes f8 f g2 c, r\breve r2 r4 d4 g d8 d e2 a, r2 r2 r4 c4 f c8 c d2 g,1 \fermata
     c1 r4 c4 c b8 b d4. d8 d2 r4 d4 d cis e4. e8 e2 r4 e2 a4 f4. f8 f2 r4 f4 f e
+    g1 g2 r4 g4 a a8 a b4 b c4. c8 f,2 \breathe g1 c,2 r4 e4 
+    fis fis8 fis gis4 gis a4. a8 d,2 \breathe e1 a,2 r4 e'4 fis fis8 fis gis4 gis
+    a4. a8 d,2 \breathe e1 a,2 \breathe a'4( g f e d1) d2 d\breve a\breve \fermata
 }
 
 bass_text = \lyricmode { 
@@ -312,6 +348,9 @@ bass_text = \lyricmode {
     zum e -- wi -- gen Le -- ben, 
     zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben.
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
+    Wei -- sen sei Eh -- re und Preis in E -- wig -- keit, A -- men, sei 
+    Eh -- re und Preis in E -- wig -- keit, A -- men, sei Eh -- re und Preis in
+    E -- wig -- keit, A -- men, A -- men, A -- men.
 }
 \score {
   \new StaffGroup \relative c' {
