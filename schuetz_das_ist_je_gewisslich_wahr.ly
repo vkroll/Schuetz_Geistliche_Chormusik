@@ -48,6 +48,9 @@ sopran_one = \relative c'' {
     b1 b2 \breathe b g2. a4 b1 b2 \breathe d4 d d2 b4 b \drei_auf_zwei a2 r2 r4 b4 a g a2 gis4 fis
     \time 4/2 gis2 a r1 r\breve r4 d4 c b c2 b4 a gis( a2 gis4) a1
     r\breve r1 r2 r4 e'8 d c4 g a c b c2 b4
+    c1 r1 r1 r2 e,4 e8 e e2 \breathe e4 e8 a
+    f4. f8 f1 g4 a e2 e r8 a8 f g a4 a a8 g a b c4 c8 c
+    c4 c8 c d4 c8 b b2 \breathe b8 b c d e2 e r4 a,4 c8 c d e
 }
 sopran_one_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort, 
@@ -58,6 +61,9 @@ sopran_one_text = \lyricmode {
     Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt, die Sün -- der se -- lig zu 
     ma -- chen, die Sün -- der se -- lig zu ma -- chen,
     un -- ter wel -- chen ich der für -- nehm -- ste 
+    bin. A -- ber dar -- um ist mir Barm -- her --zig -- keit 
+    wi -- der -- fah -- ren, auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er 
+    -- zei -- ge -- te al -- le Ge -- dud zum Ex -- em -- pel de -- nen, die an ih gläu -- ben 
 }
 sopran_two = \relative c'' {
     \time 4/2 r1 a2. a4 a2. b4 c2 c c1 r2 e,4 e f2 a g1. g2 g1 
@@ -68,6 +74,9 @@ sopran_two = \relative c'' {
     d1 g,2 \breathe d'2 b2. c4 d1 g,2 \breathe b4 b b2 d4 d d2 r4 d4  c b c2 b4 a b1
     a2 r1 r\breve r r1 r4 a4 g fis
     g2 f4 f e( d e1) e2 r4 e'8 d c4 a r4 c8 b a4 e g a g g2 g4
+    g2 r1 r\breve cis,4 cis8 cis cis2 
+    cis4 cis8 d d4. d8 d2 d4 d cis2 cis r8 f8 d e f4 f f8 e f g a4 a8 a 
+    a4 a8 a b4 a8 a gis2 \breathe gis8 gis a b c2 c r4 c4 a8 a b c
 
 }
 
@@ -80,7 +89,11 @@ sopran_two_text = \lyricmode {
     dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, dass Chri -- stus 
     Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt, die Sün -- der se -- lig zu ma -- chen
     die Sün -- der
-    se -- lig zu ma -- chen, un -- ter wel -- chen, un -- ter wel -- chen ich der für -- nehm -- ste 
+    se -- lig zu ma -- chen, un -- ter wel -- chen, un -- ter wel -- chen ich der für -- nehm 
+    -- ste bin.  A -- ber dar -- um 
+    ist mir Barm -- her --zig -- keit wi -- der -- fah -- ren, auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er 
+    -- zei -- ge -- te al -- le Ge -- dud zum Ex -- em -- pel de -- nen, die an ih gläu -- ben 
+
 
 }
 
@@ -92,7 +105,12 @@ alt = \relative c' {
     \time 6/2 a2 e e a1 a2 a e e a1 a2 a4 a a2 e4 e g2 d d 
     g1 d2 \breathe g2 d d g1 d2 \breathe g4 g g2 g4 g fis2 r2 r4 g4 f e f2 e4 d
     e2 a, r1 r1 r4 g'4 f e f2 e4 d e2 e r4 e4 d e f2 e4 d
-    e2 d r1 r\breve r4 e8 d c4 a d f d2 e4 e 
+    e2 d r1 r\breve r4 e8 d c4 a d f d2 
+    e4 e c2 r4 e8 d c4 g a c f e2 e4 cis2
+    r\breve r1 r2 a4 a8 a a2 \breathe a4 a8 d d4. d8 f2
+    r4 f2 f4 e1 e2 \breathe a4 a8 a e2 \breathe f4 f8 g 
+    a4 f8 f
+    
 }
 alt_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er, ein teu -- er wer -- tes Wort, 
@@ -102,7 +120,13 @@ alt_text = \lyricmode {
     dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, kom -- men ist in die Welt,  Chri -- stus
     Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt, die Sün -- der se -- lig zu
     ma -- chen, die Sün -- der se -- lig zu ma -- chen, die Sün -- der se -- lig zu
-    ma -- chen, un -- ter wel -- chen ich der für -- nehm -- ste
+    ma -- chen, un -- ter wel -- chen ich der für
+    -- nehm -- ste bin, un -- ter wel -- chen ich der für -- nehm -- ste bin.
+    A -- ber dar -- um ist mir Barm -- her --zig -- keit
+    wi -- der -- fah -- ren, a -- ber dar -- um ist mir Barm 
+    -- her --zig -- keit 
+
+
 }
 
 tenor_one = \relative c' {
