@@ -122,7 +122,7 @@ alt_text = \lyricmode {
     ma -- chen, die Sün -- der se -- lig zu ma -- chen, die Sün -- der se -- lig zu
     ma -- chen, un -- ter wel -- chen ich der für
     -- nehm -- ste bin, un -- ter wel -- chen ich der für -- nehm -- ste bin.
-    A -- ber dar -- um ist mir Barm -- her --zig -- keit
+    A -- ber dar -- um ist mir Barm -- her -- zig -- keit
     wi -- der -- fah -- ren, a -- ber dar -- um ist mir Barm 
     -- her --zig -- keit 
 
@@ -138,6 +138,10 @@ tenor_one = \relative c' {
     g2 b2. c4 d1 d2 \breathe d4 d d2 d4 c b2 \breathe g2 g a r2 r1 r1
     r1 r2 r4 e'4 d cis d2 cis4 b cis2 d r4 d4 c b c2 b4 a b2 a1
     r1 r4 b4 a g a2 gis4 fis gis2 a4 \breathe c8 b a4 e f a g f g2
+    c,2 r4 c'8 d e4 b \breathe a e' d c b2 a1 r\breve 
+    r r 
+    r a4 a8 a a2 \breathe a4 a8 g f4. e8 
+    d2
 }
 tenor_one_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort,
@@ -148,6 +152,10 @@ tenor_one_text = \lyricmode {
     Welt,  Chri -- stus Je -- sus, kom -- men ist in diei Welt, in die Welt,
     die Sün -- der se -- lig zu ma -- chen, die Sün -- der se -- lig zu ma -- chen, 
     die Sün -- der se -- lig zu ma -- chen,  un -- ter wel -- chen ich der für -- nehm -- ste
+    bin, un -- ter wel -- chen ich der für -- nehm -- ste bin.
+    A -- ber dar -- um ist mir Barm -- her -- zig 
+    -- keit
+
 
 }
 
@@ -161,6 +169,9 @@ tenor_two = \relative c {
     b2 \breathe d2. c4 b1 b2 \breathe b4 b b2 b4 a g2 \breathe d'2 d d r2 r1 r1
     r2 r4 c4 b a b1 a4 a g1 a r2 r4 e'4 d cis d2. c8 b c4( d2 cis4) d2
     r4 d4 c b c2 b4 a b2 a r\breve
+    r4 g8 f e4 c \breathe g' e2 e4 f8([ g] a2) gis4 a1 \breathe a4 a8 a a2 
+    a4 a8 d bes4. bes8 bes2 g4 fis a2 a r\breve
+    r r
 }
 tenor_two_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort, das ist 
@@ -171,6 +182,8 @@ tenor_two_text = \lyricmode {
     Welt,  Chri -- stus Je -- sus, kom -- men ist in diei Welt, in die Welt,
     die Sün -- der se -- lig zu ma -- chen, die Sün -- der se -- lig zu ma -- chen
     die Sün -- der se -- lig zu ma -- chen, 
+    un -- ter wel -- chen ich der für -- nehm -- ste bin. A -- ber dar -- um 
+    ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, 
 
 }
 
@@ -183,6 +196,9 @@ bass = \relative c {
     g1 g2 \breathe g2 g g g1 g2 \breathe g4 g g2 g4 g d2 r2 r1 r
     r2 r4 a'4 g fis g1 f4 f e1 d r1 r\breve
     r2 r4 d4 c b c2 b4 a e'1 a,2 r1 r2 r4 g'8 f
+    e4 c r4 e8 d c4 gis \breathe a c f2 d4 e a,1 
+    r\breve r\breve d4 d8 d d2 \breathe d4 d8 g f4. f8
+    f2 d8([ e ]) f([ d]) e2 e r\breve 
 }
 
 bass_text = \lyricmode { 
@@ -194,7 +210,9 @@ bass_text = \lyricmode {
     Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt, 
     die Sün -- der se -- lig zu ma -- chen,
     die Sün -- der se -- lig zu ma -- chen, un -- ter
-
+    wel -- chen,  un -- ter wel -- chen ich der für -- nehm -- ste bin. 
+    A -- ber dar -- um ist mir Barm -- her --zig 
+    -- keit wi -- der -- fah -- ren, 
 }
 \score {
   \new StaffGroup \relative c' {
