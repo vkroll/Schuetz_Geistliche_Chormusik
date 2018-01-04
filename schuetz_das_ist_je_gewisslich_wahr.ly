@@ -41,11 +41,11 @@ zwei_auf_drei = {
 
 
 sopran_one = \relative c'' {
-    \time 4/2 r2 c2. c4 c2. b4 a1 a2 g1 g4 g c2. a2 d( c4 c1) b2 c1
-    r2 e2. e4 e2. d4 c1 c2 b1 r1 a4 a d1 c2 b2. b4 a1 \pageBreak
-    \time 6/2 \zwei_auf_drei e'2 c2. d4 e1 e2 e c2. d4 e1 e2 r1. d2 b2. c4 d1 g,2
-    d'2 b2. c4 d1 g,2 b4 b b2 d4 d \time 4/2 \drei_auf_zwei d2 r2 r1 r\breve
-    \time 6/2 \zwei_auf_drei c2 a2. b4 c1 c2 c a2. b4 c1 c2 c4 c c2 c4 c b2 g2. a4
+    \time 4/2 r2 c2. c4 c2. b4 a1 a2 g1 \breathe g4 g c2. a2 d( c4 c1) b2 c1
+    r2 e2. e4 e2. d4 c1 c2 b1 r1 a4 a d1 c2 b2. b4 a1 \breathe \pageBreak
+    \time 6/2 \zwei_auf_drei e'2 c2. d4 e1 e2 \breathe e c2. d4 e1 e2 r1. d2 b2. c4 d1 g,2 \breathe
+    d'2 b2. c4 d1 g,2 \breathe b4 b b2 d4 d \time 4/2 \drei_auf_zwei d2 r2 r1 r\breve
+    \time 6/2 \zwei_auf_drei c2 a2. b4 c1 c2 \breathe c a2. b4 c1 c2\breathe  c4 c c2 c4 c b2 g2. a4
     b1 b2 \breathe b g2. a4 b1 b2 \breathe d4 d d2 b4 b \drei_auf_zwei a2 r2 r4 b4 a g a2 gis4 fis
     \time 4/2 gis2 a r1 r\breve r4 d4 c b c2 b4 a gis( a2 gis4) a1
     r\breve r1 r2 r4 e'8 d c4 g a c b c2 b4
