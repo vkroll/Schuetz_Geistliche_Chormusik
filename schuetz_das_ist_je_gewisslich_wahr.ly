@@ -235,20 +235,20 @@ tenor_one = \relative c' {
 tenor_one_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort,
     das ist je ge -- wiss -- lich wahr und ein teu -- er, ein teu -- er wer -- tes Wort,
-    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, kom -- men ist in die Welt,  Chri -- stus
+    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt,  Chri -- stus
     Je -- sus kom -- men ist in die Welt, in die Welt, die Sün -- der se -- lig zu ma -- chen,
-    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, kom -- men ist in die 
-    Welt,  Chri -- stus Je -- sus, kom -- men ist in diei Welt, in die Welt,
+    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die 
+    Welt,  Chri -- stus Je -- sus kom -- men ist in die Welt, in die Welt,
     die Sün -- der se -- lig zu ma -- chen, die Sün -- der se -- lig zu ma -- chen, 
     die Sün -- der se -- lig zu ma -- chen,  un -- ter wel -- chen ich der für -- nehm -- ste
     bin, un -- ter wel -- chen ich der für -- nehm -- ste bin.
     A -- ber dar -- um ist mir Barm -- her -- zig 
     -- keit wi -- der -- fah -- ren, auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er
-    -- zei -- ge -- te al -- le Ge -- duld zum Ex -- em -- pel de -- den, die an ihn gläu -- ben sol 
+    -- zei -- ge -- te al -- le Ge -- duld zum Ex -- em -- pel de -- nen, die an ihn gläu -- ben sol 
     -- len zum e -- wi -- gen Le -- ben, a -- ber da -- rum
     ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, 
     auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er -- zei -- ge -- te al -- le Ge
-    -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben sol -- len 
+    -- duld zum Ex -- em -- pel de -- nen, die an ihn gläu -- ben sol -- len 
     die an ihn gläu -- ben sol -- len zum 
     e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben, e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben. 
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
