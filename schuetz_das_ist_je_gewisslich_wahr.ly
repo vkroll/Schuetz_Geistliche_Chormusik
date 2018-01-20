@@ -314,27 +314,28 @@ tenor_two_text = \lyricmode {
 
 bass = \relative c {
     \clef "bass"  \time 4/2 r2 a2. a4 a2. g4 f1 f2 c'\breve r\breve r 
-    r2 c2. c4 c2. b4 a2 a1 e'1 r2 a,4 a d2 b e1. e2 a,1 
-    a'2 a a a1 a2 a1 a2 a1 a2 a4 a a2 a4 a g2 g g g1 g2
-    g2 g g g1 g2 g4 g g2 g4 g d2 r2 r4 g4 f e f2 e4 d e2 a,2
-    \time 6/2 a'2 a a a1 a2 a1 a2 a1 a2 a4 a a2 a4 a g2 \breathe g g
-    g1 g2 \breathe g2 g g g1 g2 \breathe g4 g g2 g4 g d2 r2 r1 r
-    r2 r4 a'4 g fis g1 f4 f e1 d r1 r\breve
-    r2 r4 d4 c b c2 b4 a e'1 a,2 r1 r2 r4 g'8 f
-    e4 c r4 e8 d c4 gis \breathe a c f2 d4 e a,1 
-    r\breve r\breve d4 d8 d d2 \breathe d4 d8 g f4. f8
-    f2 d8([ e ]) f([ d]) e2 e r\breve 
-    r1 r2 r8 d8 f e d4 d d8 c d e f4 f4. f8 f4 
-    f8 f f4 d4. d8 e1 \breathe e8 e fis gis a2 a4 r8 a8 f f g a 
-    bes2 bes r4 g4 c g8 g a2 d, \breathe d4 d8 d d2
-    d4 d8 g e4. e8 e2 \breathe cis4 d e1 a,
+    r2 c2. c4 c2. b4 a2 a1 e'1 r2 a,4 a d2 b e1. e2 a,1\breathe 
+    a'2 a a a1 a2\breathe a1 a2 a1 a2 a4 a a2 a4 a g2\breathe g g
+    g1 g2\breathe g2 g g g1 g2 g4 g g2 g4 g d2 r2 r4 g4 f e
+    f2 e4 d e2 a,2 \time 6/2 a'2 a a a1 a2\breathe a1 a2 a1 a2 
+    a4 a a2 a4 a g2 \breathe g g g1 g2 \breathe g2 g g g1 g2 g4 g g2 g4 g
+    d2 r2 r1 r  r2 r4 a'4 g fis g1 f?4 f e1
+    d r1 r\breve  r2 r4 d4 c b c2 b4 a e'1 a,2
+    r1 r2 r4 g'8 f e4 c r4 e8 d c4 gis a c f2 d4 e a,1 
+    r\breve r\breve
+    d4 d8 d d2 d4 d8 g f4. f8 f2 d8([ e ]) f([ d]) e2 e 
+    r\breve r1 r2 r8 d8 f e
+    d4 d d8 c d e f4 f4. f8 f4 f8 f f4 d4. d8 e1\breathe
+    e8 e fis gis a2 a4 r8 a8 f f g a  bes2 bes r4 g4 c g8 g a2 d, \breathe d4 d8 d d2
+    d4 d8 g e4. e8 e2 cis4 d e1 a,
     r\breve r
     r1 d8 d e fis g2 g4 r8 g e e fis g a2 a 
-    r4 f4 bes f8 f g2 c, r\breve r2 r4 d4 g d8 d e2 a, r2 r2 r4 c4 f c8 c d2 g,1 \fermata
+    r4 f4 bes f8 f g2 c, r\breve
+    r2 r4 d4 g d8 d e2 a, r2 r2 r4 c4 f c8 c d2 g,1 \fermata
     c1 r4 c4 c b8 b d4. d8 d2 r4 d4 d cis e4. e8 e2 r4 e2 a4 f4. f8 f2 r4 f4 f e
     g1 g2 r4 g4 a a8 a b4 b c4. c8 f,2 \breathe g1 c,2 r4 e4 
     fis fis8 fis gis4 gis a4. a8 d,2 \breathe e1 a,2 r4 e'4 fis fis8 fis gis4 gis
-    a4. a8 d,2 \breathe e1 a,2 \breathe a'4( g f e d1) d2 d\breve a\breve \fermata
+    a4. a8 d,2 \breathe e1 a,2 \breathe a'4( g f e d1) d2\breathe d\breve a\breve \fermata
     \undo \hide Staff.BarLine
     \bar "|."
 }
