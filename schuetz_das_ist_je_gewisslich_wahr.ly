@@ -24,7 +24,7 @@ drei_auf_zwei = {
         \concat {
         \smaller \general-align #Y #DOWN \note #"1." #1
         " = "
-        \smaller \general-align #Y #DOWN \note #"1" #1
+        \smaller \general-align #Y #DOWN \note #"2" #1
         }
     }
 }
@@ -32,7 +32,7 @@ drei_auf_zwei = {
 zwei_auf_drei = {
     \tempo \markup {
         \concat {
-        \smaller \general-align #Y #DOWN \note #"1" #1
+        \smaller \general-align #Y #DOWN \note #"2" #1
         " = "
         \smaller \general-align #Y #DOWN \note #"1." #1
         }
@@ -43,21 +43,21 @@ zwei_auf_drei = {
 sopran_one = \relative c'' {
     \time 4/2 r2 c2. c4 c2. b4 a1 a2 g1 \breathe g4 g c2. a2 d( c4 c1) b2 c1
     r2 e2. e4 e2. d4 c1 c2 b1 r1 a4 a d1 c2 b2. b4 a1 \breathe \pageBreak
-    \time 6/2 \zwei_auf_drei e'2 c2. d4 e1 e2 \breathe e c2. d4 e1 e2 r1. d2 b2. c4 d1 g,2 \breathe
-    d'2 b2. c4 d1 g,2 \breathe b4 b b2 d4 d \time 4/2 \drei_auf_zwei d2 r2 r1 r\breve
-    \time 6/2 \zwei_auf_drei c2 a2. b4 c1 c2 \breathe c a2. b4 c1 c2\breathe  c4 c c2 c4 c b2 g2. a4
-    b1 b2 \breathe b g2. a4 b1 b2 \breathe d4 d d2 b4 b \drei_auf_zwei a2 r2 r4 b4 a g a2 gis4 fis
-    \time 4/2 gis2 a r1 r\breve r4 d4 c b c2 b4 a gis( a2 gis4) a1
-    r\breve r1 r2 r4 e'8 d c4 g a c b c2 b4
-    c1 r1 r1 r2 e,4 e8 e e2 \breathe e4 e8 a
-    f4. f8 f1 g4 a e2 e r8 a8 f g a4 a a8 g a b c4 c8 c
-    c4 c8 c d4 c8 b b2 \breathe b8 b c d e2 e r4 a,4 c8 c d e
-    f4 f8 d e4 d8 d d4( cis) d2 r\breve
-    r\breve r 
-    r r2 a4 a8 a a2 \breathe a4 a8 d 
-    b4. b8 b2. \breathe gis4 a b2( a gis4) a1
-    r1 r8 a8 f g a4 \breathe a a8 f g a bes4 bes8 bes bes4 bes8 bes c4 bes8 bes 
-    a2 \breathe a8 a b c d2 d4 r8 d8 b b c d e2 e r4 c
+    \time 6/2 \zwei_auf_drei e'2 c2. d4 e1 e2 \breathe e c2. d4 e1 e2 r1. d2 b2. c4 
+    d1 g,2 \breathe d'2 b2. c4 d1 g,2 b4 b b2 d4 d \time 4/2 \drei_auf_zwei d2 r2 r1 
+    r\breve \time 6/2 \zwei_auf_drei c2 a2. b4 c1 c2 \breathe c a2. b4 c1 c2 
+    c4 c c2 c4 c b2 g2. a4 b1 b2 \breathe b g2. a4 b1 b2 \breathe d4 d d2 b4 b 
+    \drei_auf_zwei a2 r2 r4 b4 a g a2 gis4 fis \time 4/2 gis2 a r1 r\breve 
+    r4 d4 c b c2 b4 a gis( a2 gis4) a1 r\breve r1 r2 r4 e'8 d
+    c4 g a c b c2 b4 c1 r1 r1 r2 e,4 e8 e 
+    e2 e4 e8 a f4. f8 f1 g4 a e2 e 
+    r8 a8 f g a4 a a8 g a b c4 c8 c c4 c8 c d4 c8 b b2 \breathe b8 b c d 
+    e2 e r4 a,4 c8 c d e f4 f8 d e4 d8 d d4( cis) d2
+    r\breve r\breve
+    r r r2 a4 a8 a a2 a4 a8 d 
+    b4. b8 b2. gis4 a b2( a gis4) a1
+    r1 r8 a8 f g a4 a a8 f g a bes4 bes8 bes bes4 bes8 bes c4 bes8 bes 
+    a2 \breathe a8 a b? c d2 d4 r8 d8 b b c d e2 e r4 c
     f f8 e d1 c2 r4 g4 g8 g a b c2 c 
     r4 a4 d d8 c b1 a2 r4 g4 c b8 b a4 g8 \breathe e a4 g8 g g4( fis) g1\fermata  \bar "||"
     c1 r4 c4 c d8 d a4. a8 a2 r4 d d e b4. b8 b2 r4 b2 c4 a4. a8 a2 r4 c4 c c 
