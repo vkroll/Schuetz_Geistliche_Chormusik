@@ -260,7 +260,7 @@ tenor_one_text = \lyricmode {
 
 
 tenor_two = \relative c {
-    \clef "G_8" \time 4/2 r2 e2. e4 e2 a1 a2 f g g4 g c1 a2 d4.( c8 b2) c2 g1\breathe g2. g4 
+    \clef "G_8" \time 4/2 r2 e2. e4 e2 a1 a2 f g \breathe g4 g c1 a2 d4.( c8 b2) c2 g1\breathe g2. g4 
     e1. e2  e1. fis2 gis2.\breathe e2 e4 a2 d,2\breathe fis2 g a b b cis1
     r1. e2 c2. d4 e1 a,2\breathe e' c2. d4 e1 a,2 b4 b b2 b4 a
     g2\breathe b2. c4 d1 d2 d4 d d2 d4 c b2\breathe g g a r2 r4 b4 a gis
@@ -288,21 +288,21 @@ tenor_two = \relative c {
 }
 tenor_two_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort, das ist 
-    je ge -- wiss -- lich wahr und ein teu -- er, ein teu -- er wer -- tes Wort
-    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, kom -- men ist in die Welt,  Chri -- stus
+    je ge -- wiss -- lich wahr und ein teu -- er, ein teu -- er wer -- tes Wort,
+    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt,  Chri -- stus
     Je -- sus kom -- men ist in die Welt, in die Welt, die Sün -- der se -- lig zu ma -- chen,
-    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, kom -- men ist in die 
-    Welt,  Chri -- stus Je -- sus, kom -- men ist in diei Welt, in die Welt,
-    die Sün -- der se -- lig zu ma -- chen, die Sün -- der se -- lig zu ma -- chen
+    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die 
+    Welt,  Chri -- stus Je -- sus kom -- men ist in die Welt, in die Welt,
+    die Sün -- der se -- lig zu ma -- chen, die Sün -- der se -- lig zu ma -- chen,
     die Sün -- der se -- lig zu ma -- chen, 
     un -- ter wel -- chen ich der für -- nehm -- ste bin. A -- ber dar -- um 
     ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, 
     auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er
-    -- zei -- ge -- te al -- le Ge -- duld zum Ex -- em -- pel de -- den, die an ihn gläu -- ben 
+    -- zei -- ge -- te al -- le Ge -- duld zum Ex -- em -- pel de -- nen, die an ihn gläu -- ben 
      sol -- len zum e -- wi -- gen Le -- ben, a -- ber da 
      -- rum ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, 
 
-    die an ih gläu -- ben 
+    die an ihn gläu -- ben 
     sol -- len, die an ihn gläu -- ben sol -- len zum
     e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben.
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
