@@ -93,28 +93,28 @@ sopran_one_text = \lyricmode {
 }
 sopran_two = \relative c'' {
     \time 4/2 r1 a2. a4 a2. b4 c2 c c1 r2 e,4 e f2 a g1. g2 g1 
-    r2 g2. g4 g2 e a1 a2 gis1 r1 fis4 fis b1 a2 a gis a1
-    \time 6/2  c2 a2. b4 c1 c2 c a2. b4 c1 c2 c4 c c2 c4 c b2 g2. a4 b1 b2
-    b2 g2. a4 b1 b2 d4 d d2 b4 b a2 r2 r1 r\breve
-    \time 6/2 e'2 c2. d4 e1 e2 e c2. d4 e1 e2 r1. d2 b2. c4
-    d1 g,2 \breathe d'2 b2. c4 d1 g,2 \breathe b4 b b2 d4 d d2 r4 d4  c b c2 b4 a b1
-    a2 r1 r\breve r r1 r4 a4 g fis
-    g2 f4 f e( d e1) e2 r4 e'8 d c4 a r4 c8 b a4 e g a g g2 g4
-    g2 r1 r\breve cis,4 cis8 cis cis2 
-    cis4 cis8 d d4. d8 d2 d4 d cis2 cis r8 f8 d e f4 f f8 e f g a4 a8 a 
-    a4 a8 a b4 a8 a gis2 \breathe gis8 gis a b c2 c r4 c4 a8 a b c
-    d4 d8 a c4 a8 a a2 a r\breve
-    r r
-    r r1 fis4 fis8 fis fis2
+    r2 g2. g4 g2 e a1 a2 gis1 r1 fis4 fis b1 a2 a gis a1 \breathe
+    \time 6/2  c2 a2. b4 c1 c2\breathe c a2. b4 c1 c2 c4 c c2 c4 c b2 \breathe g2. a4 
+    b1 b2 \breathe b2 g2. a4 b1 b2 d4 d d2 b4 b a2 r2 r1 
+    r\breve \time 6/2 e'2 c2. d4 e1 e2 \breathe e c2. d4 e1 e2
+    r1. d2 b2. c4 d1 g,2 \breathe d'2 b2. c4 d1 g,2 b4 b b2 d4 d
+    d2 r4 d4  c b c2 b4 a b1 a2 r1 r\breve 
+    r r1 r4 a4 g fis g2 f?4 f e( d e1) e2 r4 e'8 d c4 a 
+    r4 c8 b a4 e g a g g2 g4 g2 r1 r\breve 
+    cis,4 cis8 cis cis2 cis4 cis8 d d4. d8 d2 d4 d cis2 cis 
+    r8 f8 d e f4 f f8 e f g a4 a8 a a4 a8 a b4 a8 a gis2 \breathe gis8 gis a b 
+    c2 c r4 c4 a8 a b c d4 d8 a c4 a8 a a2 a 
+    r\breve r 
+    r r r1 fis4 fis8 fis fis2
     fis4 fis8 g gis4. gis8 gis4 \breathe b4 e, fis8 fis gis4 a b2 a1
-    r1 r8 f8 d e f4 \breathe f f8 d e f g4 g8 g g4 g8 g a4 g8 g 
-    fis1 \breathe fis8 fis g a b2 b4 r8 b8 g g a b c2 c
+    r1 r8 f8 d e f4 f f8 d e f g4 g8 g g4 g8 g a4 g8 g 
+    fis1 \breathe fis8 fis g a b?2 b4 r8 b8 g g a b c2 c
     r4 a4 d c8 c c4( b) c2 r4 e,4 e8 e f g a2 a 
     r2 r4 a4 b a8 a a4( gis) a2 r2 r4 g4 c c8 b a1 b \fermata
     g1 r4 g4 g g8 g fis4. fis8 fis2 r4 a4 a a gis4. gis8 gis2 r4 gis2 a4 c4. c8 c2 r4 a4 a g
     b1 b2 r4 b4 c c8 c d4 d e2 d4 c b( c2 b4) c2 r4 b4
     d d8 d e2. e4 d2. c8 c \breathe b2 a r4 g!4 a a8 a b4 b 
-    c2 b4 a gis4( a2 gis4) a1 \breathe a4( g f e d2. e4 f g a2. d,4 a'2) a\breve\fermata
+    c2 b4 a gis4( a2 gis?4) a1 \breathe a4( g? f e d2. e4 f g a2. d,4 a'2) a\breve\fermata
 
 
 }
@@ -123,22 +123,22 @@ sopran_two = \relative c'' {
 sopran_two_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort, 
     das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort,
-    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt,  Chri -- stus Je -- sus
+    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt,  Chri -- stus Je -- sus,
     dass Chri -- stus Je -- sus kom -- men ist in die Welt,
     dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, dass Chri -- stus 
     Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt, die Sün -- der se -- lig zu ma -- chen
     die Sün -- der
     se -- lig zu ma -- chen, un -- ter wel -- chen, un -- ter wel -- chen ich der für -- nehm 
     -- ste bin.  A -- ber dar -- um 
-    ist mir Barm -- her --zig -- keit wi -- der -- fah -- ren, auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er 
-    -- zei -- ge -- te al -- le Ge -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben 
+    ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er 
+    -- zei -- ge -- te al -- le Ge -- duld zum Ex -- em -- pel de -- nen, die an ihn gläu -- ben 
     sol -- len zum e -- wi -- gen Le -- ben, 
 
     a -- ber dar -- um 
     ist mir Barm -- her -- zig -- keit, Barm -- her -- zig -- keit wi -- der -- fah -- ren,
     auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er -- zei -- ge -- te al -- le Ge
-    -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben sol -- len 
-    zum e -- wi -- gen Le -- ben, die an ih gläu -- ben sol -- len 
+    -- duld zum Ex -- em -- pel de -- nen, die an ihn gläu -- ben sol -- len 
+    zum e -- wi -- gen Le -- ben, die an ihn gläu -- ben sol -- len 
     zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben.
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
     Wei -- sen sei Eh -- re und Preis in E -- wig -- keit, A -- men, sei 
