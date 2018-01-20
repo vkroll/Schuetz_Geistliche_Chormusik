@@ -260,24 +260,24 @@ tenor_one_text = \lyricmode {
 
 
 tenor_two = \relative c {
-    \clef "G_8" \time 4/2 r2 e2. e4 e2 a1 a2 f g g4 g c1 a2 d4.( c8 b2) c2 g1 g2. g4 
-    e1. e2  e1. fis2 gis2. e2 e4 a2 d,2 fis2 g a b b cis1
-    r1. e2 c2. d4 e1 a,2 e' c2. d4 e1 a,2 b4 b b2 b4 a g2 b2. c4
-    d1 d2 d4 d d2 d4 c b2 g g a r2 r4 b4 a gis a2 gis4 fis gis2 a
-    \time 6/2 r1. c2 e2. d4 c1 c2 c e2. d4 c1 c2 d4 d d2 d4 c
-    b2 \breathe d2. c4 b1 b2 \breathe b4 b b2 b4 a g2 \breathe d'2 d d r2 r1 r1
-    r2 r4 c4 b a b1 a4 a g1 a r2 r4 e'4 d cis d2. c8 b c4( d2 cis4) d2
-    r4 d4 c b c2 b4 a b2 a r\breve
-    r4 g8 f e4 c \breathe g' e2 e4 f8([ g] a2) gis4 a1 \breathe a4 a8 a a2 
-    a4 a8 d bes4. bes8 bes2 g4 fis a2 a r\breve
-    r r
-    r1 r2 r8 f8 d e f4 f f8 e f g a2 a4 a 
-    a a8 a b4 a8 a gis1 \breathe gis8 gis a b c2 c4 r8 c8 a a b c
-    d2 d r4 d4 e d8 d d4( cis) d2 r2 d4 d8 d 
+    \clef "G_8" \time 4/2 r2 e2. e4 e2 a1 a2 f g g4 g c1 a2 d4.( c8 b2) c2 g1\breathe g2. g4 
+    e1. e2  e1. fis2 gis2.\breathe e2 e4 a2 d,2\breathe fis2 g a b b cis1
+    r1. e2 c2. d4 e1 a,2\breathe e' c2. d4 e1 a,2 b4 b b2 b4 a
+    g2\breathe b2. c4 d1 d2 d4 d d2 d4 c b2\breathe g g a r2 r4 b4 a gis
+    a2 gis4 fis gis?2 a \time 6/2 r1. c2 e2. d4 c1 c2\breathe c e2. d4
+    c1 c2 d4 d d2 d4 c b2 \breathe d2. c4 b1 b2 b4 b b2 b4 a g2 \breathe d'2 d
+    d r2 r1 r1  r2 r4 c4 b a b1 a4 a g1 
+    a r2 r4 e'4 d cis d2. cis?8 b cis?4( d2 cis4) d2 r4 d4 c b c2 b4 a b2 a 
+    r\breve r4 g8 f e4 c g' e2 e4 f8([ g] a2) gis4 a1 \breathe
+    a4 a8 a a2 a4 a8 d bes4. bes8 bes2 g4 fis a2 a 
+    r\breve r
+    r r1 r2 r8 f8 d e 
+    f4 f f8 e f g a2 a4 a a a8 a b4 a8 a gis1 \breathe
+    gis8 gis a b c2 c4 r8 c8 a a b c d2 d r4 d4 e d8 d d4( cis) d2 r2 d4 d8 d 
     d2 r2 r8 b8 b e, a4 d8 d b4 c e( e,) e1
     r\breve r
     r r1 r4 a4 a8 a b c
-    d4 c r2 r4 g4 g8 g a b c2. c4 r2 r4 a4 
+    d4 c r2 r4 g4 g8 g a b? c2. c4 r2 r4 a4 
     d c8 c b4 a8  \breathe a g4 d'8 d b4 e, r4 a4 c b8 b a4 b r4 g4 a e8 e a2 g1 \fermata
     g1 r4 g4 g d8 d fis4. fis8 fis2 r4 fis4 a e gis4. gis8 gis2 r4 b2 a4 a4. a8  a2 r4 a4 a c
     b1 b2 r2 r4 a4 d d8 d c2 r4 a4 d c8 c \breathe d4(g,) g2 r4 g4 
