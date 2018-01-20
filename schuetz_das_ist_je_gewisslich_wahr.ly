@@ -46,7 +46,7 @@ sopran_one = \relative c'' {
     \time 6/2 \zwei_auf_drei e'2 c2. d4 e1 e2 \breathe e c2. d4 e1 e2 r1. d2 b2. c4 
     d1 g,2 \breathe d'2 b2. c4 d1 g,2 b4 b b2 d4 d \time 4/2 \drei_auf_zwei d2 r2 r1 
     r\breve \time 6/2 \zwei_auf_drei c2 a2. b4 c1 c2 \breathe c a2. b4 c1 c2 
-    c4 c c2 c4 c b2 g2. a4 b1 b2 \breathe b g2. a4 b1 b2 \breathe d4 d d2 b4 b 
+    c4 c c2 c4 c b2 g2. a4 b1 b2 \breathe b g2. a4 b1 b2 d4 d d2 b4 b 
     \drei_auf_zwei a2 r2 r4 b4 a g a2 gis4 fis \time 4/2 gis2 a r1 r\breve 
     r4 d4 c b c2 b4 a gis( a2 gis4) a1 r\breve r1 r2 r4 e'8 d
     c4 g a c b c2 b4 c1 r1 r1 r2 e,4 e8 e 
@@ -68,21 +68,21 @@ sopran_one = \relative c'' {
 sopran_one_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort, 
     das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort,
-    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus
+    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus,
     dass Chri -- stus Je -- sus kom -- men ist in die Welt,
-    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, kom -- men ist in die Welt,  Chri -- stus
+    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt,  Chri -- stus
     Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt, die Sün -- der se -- lig zu 
     ma -- chen, die Sün -- der se -- lig zu ma -- chen,
     un -- ter wel -- chen ich der für -- nehm -- ste 
-    bin. A -- ber dar -- um ist mir Barm -- her --zig -- keit 
+    bin. A -- ber dar -- um ist mir Barm -- her -- zig -- keit 
     wi -- der -- fah -- ren, auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er 
-    -- zei -- ge -- te al -- le Ge -- dud zum Ex -- em -- pel de -- nen, die an ih gläu -- ben 
+    -- zei -- ge -- te al -- le Ge -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben 
     sol -- len zum e -- wi -- gen Le -- ben, 
 
     a -- ber dar -- um ist mir Barm 
     -- her -- zig -- keit wi -- der -- fah -- ren,
     auf dass an mir für -- nehm -- lich Je -- sus Chri -- stus er -- zei -- ge -- te al -- le Ge 
-    -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben sol -- len zum
+    -- duld zum Ex -- em -- pel de -- nen, die an ihn gläu -- ben sol -- len zum
     e -- wi -- gen Le -- ben, die an ih gläu -- ben sol -- len
     zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben.  
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
