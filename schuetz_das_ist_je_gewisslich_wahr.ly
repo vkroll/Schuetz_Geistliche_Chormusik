@@ -168,7 +168,7 @@ alt = \relative c' {
     r8 d8 d b e4. b8 b2 r4 b2 e4 e2 e r8 e8 cis d 
     e4 e e8 cis d e f4 f r2 r4 d4 d d8 d d2 f4 d 
     d1 r2 d8 d e fis g2 g4 r8 g8 e e f? g a2
-    a4 \breathe f f a8 a g2 e r1 r4 c4 f e8 e 
+    a4 f f a8 a g2 e r1 r4 c4 f e8 e 
     d4 e r4 f g f8 f e1 e4 \breathe e c e8 e a,4 e'8 \breathe g c,4 e8 e d2 d1 \fermata
     e1 r4 e4 e d8 d d4. d8 d2 r4 d4 a e' e4. e8 e2 r4 e2 e4 f4. f8 f2 r4 f4 f g
     g1 g2 r2 r4 c,4 g' g8 g e4 e f2. e8 e \breathe d2  e r4 e4
@@ -206,24 +206,24 @@ alt_text = \lyricmode {
 }
 
 tenor_one = \relative c' {
-    \clef "G_8" \time 4/2 r2 a2. a4 a2. b4 c1 c2 c1 r2 c,4 c f2 d g1. g2 c,1 
-    g'2. g4 g2 g a1. a2 b1 g4 g c2 a r2 b2 c4 e2 e, e4 e1
-    \time 6/2 r1. c'2 e2. d4 c1 c2 c e2. d4 c1 c2 d4 d d2 d4 c b2 d2. c4
-    b1 b2 b4 b b2 b 4 a g2 d'2 d d r4 d4 c b c2 b4 a b1 a2
-    \time 6/2 r1. e'2 c2. d4 e1 a,2 e'2 c2. d4 e1 a,2 b4 b b2 b4 a
-    g2 b2. c4 d1 d2 \breathe d4 d d2 d4 c b2 \breathe g2 g a r2 r1 r1
-    r1 r2 r4 e'4 d cis d2 cis4 b cis2 d r4 d4 c b c2 b4 a b2 a1
-    r1 r4 b4 a g a2 gis4 fis gis2 a4 \breathe c8 b a4 e f a g f g2
-    c,2 r4 c'8 d e4 b \breathe a e' d c b2 a1 r\breve 
-    r r 
-    r a4 a8 a a2 \breathe a4 a8 g f4. e8 
-    d2 c4 d a'2 d, r8 a'8 f g a4 a a8 g a b c4 c8 c 
-    c4 c8 c d4 c8 c b2 \breathe b8 b c d e2 e4 r8 e8 c c d e f2
-    f r4 d g g8 f e1 d2 r8 a a a a2
+    \clef "G_8" \time 4/2 r2 a2. a4 a2. b4 c1 c2 c1 r2 c,4 c f2 d g1. g2 c,1 \breathe
+    g'2. g4 g2 g a1. a2 b1\breathe g4 g c2 a r2 b2 c4 e2 e, e4 e1
+    \time 6/2 r1. c'2 e2. d4 c1 c2\breathe c e2. d4 c1 c2 d4 d d2 d4 c
+    b2\breathe d2. c4 b1 b2 b4 b b2 b4 a g2\breathe d'2 d d r4 d4 c b c2
+    b4 a b1 a2 \time 6/2 r1. e'2 c2. d4 e1 a,2\breathe e'2 c2. d4
+    e1 a,2 b4 b b2 b4 a g2\breathe b2. c4 d1 d2 d4 d d2 d4 c b2 \breathe g2 g 
+    a r2 r1 r1 r1 r2 r4 e'4 d cis d2 cis?4 b cis?2 
+    d r4 d4 c? b c2 b4 a b2 a1 r1 r4 b4 a g a2 gis4 fis gis?2 a4 \breathe c8 b
+    a4 e f a g f g2 c,2 r4 c'8 d e4 b a e' d c b2 a1
+    r\breve r
+    r r
+    a4 a8 a a2 a4 a8 g f4. e8 d2 c4 d a'2 d,
+    r8 a'8 f g a4 a a8 g a b c4 c8 c c4 c8 c d4 c8 c b2 \breathe b8 b c d
+    e2 e4 r8 e8 c c d e f2 f r4 d g g8 f e1 d2 r8 a a a a2
     r2 r8 b8 b e e4. e8 e4 d2 c4 b2 cis1 
-    r2 r8 a8 b cis d2. \breathe d4 d8 c bes a g4 g8 g g4 g8 g f4 g8 g 
+    r2 r8 a8 b cis d2. d4 d8 c? bes a g4 g8 g g4 g8 g f4 g8 g 
     d1 r2 b'8 b c d e4 d r4 r8 e8 c c d e f4 e
-    r\breve r4 c4 c8 c a g f2 f4 \breathe c'4
+    r\breve r4 c4 c8 c a g f2 f4 c'4
     f e8 e d2 d r4 b4 c c8 b a4 e \breathe a g8 g f4 g8 \breathe c a4 c8 c a4.( d8) b1 \fermata
     c1 r4 c4 c, g'8 g a4. a8 a2 r4 a4 fis a b4. b8 b2 r2 e4 c c4. c8 c2 r4 c4 c e
     d1 d2 r4 d4 c c8 c b4 b e4. e8 a,2 r4 g8([ a b c] d4) c2 r2
