@@ -116,7 +116,7 @@ sopran_two = \relative c'' {
     g1 r4 g4 g g8 g fis4. fis8 fis2 r4 a4 a a gis4. gis8 gis2 r4 gis2 a4 c4. c8 c2 r4 a4 a g
     b1 b2 r4 b4 c c8 c d4 d e2 d4 c b( c2 b4) c2 r4 b4
     d d8 d e2. e4 d2. c8 c \breathe b2 a r4 g!4 a a8 a b4 b 
-    c2 b4 a gis4( a2 gis?4) a1 \breathe a4( g? f e d2. e4 f g a2. d,4 a'2) a\breve\fermata
+    c2 b4 a \breathe gis4( a2 gis?4) a1 \breathe a4( g? f e d2. e4 f g a2. d,4 a'2) a\breve\fermata
 
     \undo \hide Staff.BarLine
     \bar "|."
@@ -155,7 +155,7 @@ alt = \relative c' {
     r2 c2. c4 c2. d4 e2 e1 e\breve r2 d4 d g2 e e e e1\breathe
     \time 6/2 a2 e e a1 a2\breathe a e e a1 a2\breathe a4 a a2 e4 e g2\breathe d d 
     g1 d2 \breathe g2 d d g1 d2 g4 g g2 g4 g fis2 r2 r1 
-    r\breve \time 6/2 a2 e e a1 a2 \breathe a e e a1 a2\breathe
+    r\breve \time 6/2 a2 e e a1 a2 \breathe a e e a1 a2
     a4 a a2 e4 e g2\breathe d d g1 d2 \breathe g2 d d g1 d2 g4 g g2 g4 g 
     fis2 r2 r4 g4 f e f2 e4 d e2 a, r1 r1 r4 g'4 f e
     f2 e4 d e2 e r4 e4 d e f2 e4 d e2 d r1 r\breve
@@ -181,9 +181,9 @@ alt = \relative c' {
 alt_text = \lyricmode { 
     Das ist je ge -- wiss -- lich wahr und ein teu -- er, ein teu -- er wer -- tes Wort, 
     das ist je ge -- wiss -- lich wahr und ein teu -- er wer -- tes Wort,
-    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, kom -- men ist in die Welt,  Chri -- stus Je -- sus
+    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, kom -- men ist in die Welt,  Chri -- stus Je -- sus,
     dass Chri -- stus Je -- sus kom -- men ist in die Welt,
-    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus, kom -- men ist in die Welt,  Chri -- stus
+    dass Chri -- stus Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt,  Chri -- stus
     Je -- sus, dass Chri -- stus Je -- sus kom -- men ist in die Welt, die Sün -- der se -- lig zu
     ma -- chen, die Sün -- der se -- lig zu ma -- chen, die Sün -- der se -- lig zu
     ma -- chen, un -- ter wel -- chen ich der für
@@ -195,7 +195,7 @@ alt_text = \lyricmode {
     a -- ber dar -- um
     ist mir Barm -- her -- zig -- keit wi -- der -- fah -- ren, auf dass an 
     mir für -- nehm -- lich Je -- sus Chri -- stus er -- zei -- ge -- te al -- le Ge
-    -- duld zum Ex -- em -- pel de -- nen, die an ih gläu -- ben sol 
+    -- duld zum Ex -- em -- pel de -- nen, die an ihn gläu -- ben sol 
     -- len zum e -- wi -- gen Le -- ben, zum e -- wi -- gen 
     Le -- ben, zum e -- wi -- gen Le -- ben, zum e -- wi -- gen Le -- ben,  zum e -- wi -- gen Le -- ben.
     Gott dem e -- wi -- gen Kö -- ni -- ge, dem un -- ver -- gäng -- li -- chen und un -- sicht -- ba -- ren und al -- lein
