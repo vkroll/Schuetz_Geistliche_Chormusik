@@ -6,7 +6,7 @@
   composer = "Heinrich Schütz"
   % Do not display the tagline for this book
   tagline = ##f
-  copyright = "Diese Ausgabe wurde für den Ölbergchor Berlin Kreuzberg von Volker Kroll 2018 erstellt und darf frei kopiert werden"
+  copyright = "CC-BY-SA Volker Kroll 2018 / Quelle: https://github.com/vkroll/Schuetz_Geistliche_Chormusik"
 }
 #(set-global-staff-size 15.87)
 
