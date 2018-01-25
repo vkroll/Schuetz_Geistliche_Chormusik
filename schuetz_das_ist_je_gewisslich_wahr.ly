@@ -9,7 +9,14 @@
   copyright = "CC-BY-SA Volker Kroll 2018 / Quelle: https://github.com/vkroll/Schuetz_Geistliche_Chormusik"
 }
 #(set-global-staff-size 15.87)
+%#(set-global-staff-size 14.14)
+\paper {
+    two-sided = ##t
+    inner-margin = 13\mm   % scaled to paper-size
+    outer-margin = 7\mm   % scaled to paper-size
 
+
+}
 
 global = {
   \hide Staff.BarLine
